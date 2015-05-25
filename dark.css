@@ -1,0 +1,22 @@
+/* Backgrounds */
+._5vb_ /* Main page */ ,
+._5vb_ #contentCol /* Main content */ ,
+#u_0_1s /* Sidebar */ ,
+._4-u8 /* Posts */ ,
+#u_0_18, .mentionsTextarea, .mentionsTypeahead /* Status form input */ ,
+._1dsp._42jz /* Status form bottom panel */ ,
+._2r3x /* Post links */ ,
+._5vsj, ._5vsj .UFIRow /* Posts likes and comments */ ,
+._5yk1, .UFIAddCommentInput._1osc /* Posts comment input */
+{
+    background-color: #212121 !important;
+}
+
+/* Colors */
+._bui ._5afe /* Links bar */ ,
+._5vb_ #contentCol /* Main content */ ,
+._6m6 a /* Posts links title */ ,
+._5vsj /* Posts likes and comments */
+{
+    color: #9197a3 !important;
+}
