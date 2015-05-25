@@ -1,0 +1,16 @@
+{
+  "name": "Dark Facebook Theme",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Dark theme for facebook",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*"
+      ],
+      "css": [
+        "dark.css"
+      ]
+    }
+  ]
+}
