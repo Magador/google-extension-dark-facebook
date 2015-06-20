@@ -1,22 +1,166 @@
-/* Backgrounds */
-._5vb_ /* Main page */ ,
-._5vb_ #contentCol /* Main content */ ,
-#u_0_1s /* Sidebar */ ,
-._4-u8 /* Posts */ ,
-#u_0_18, .mentionsTextarea, .mentionsTypeahead /* Status form input */ ,
-._1dsp._42jz /* Status form bottom panel */ ,
-._2r3x /* Post links */ ,
-._5vsj, ._5vsj .UFIRow /* Posts likes and comments */ ,
-._5yk1, .UFIAddCommentInput._1osc /* Posts comment input */
+/*
+/!* Backgrounds *!/
+._5vb_ /!* Main page *!/ ,
+._5vb_ #contentCol /!* Main content *!/ ,
+#u_0_1s /!* Sidebar *!/ ,
+._4-u8 /!* Posts *!/ ,
+#u_0_18, .mentionsTextarea, .mentionsTypeahead /!* Status form input *!/ ,
+._1dsp._42jz /!* Status form bottom panel *!/ ,
+._2r3x /!* Post links *!/ ,
+._5vsj, ._5vsj .UFIRow /!* Posts likes and comments *!/ ,
+._5yk1, .UFIAddCommentInput._1osc /!* Posts comment input *!/
 {
     background-color: #212121 !important;
 }
 
-/* Colors */
-._bui ._5afe /* Links bar */ ,
-._5vb_ #contentCol /* Main content */ ,
-._6m6 a /* Posts links title */ ,
-._5vsj /* Posts likes and comments */
+/!* Colors *!/
+._bui ._5afe /!* Links bar *!/ ,
+._5vb_ #contentCol /!* Main content *!/ ,
+._6m6 a /!* Posts links title *!/ ,
+._5vsj /!* Posts likes and comments *!/
 {
     color: #9197a3 !important;
+}
+
+/!* Border colors *!/
+._4-u2 /!* UI modules *!/ ,
+#u_0_1s /!* Sidebar *!/
+{
+    border-color: #616161 !important;
+}*/
+
+._56hv,._56hy {
+    background-color: #212121 !important;
+}
+
+.UIThumbPagerControl_Text {
+    color: #333;
+}
+
+.UIThumbPagerControl_PageNumber {
+    color: #212121 !important;
+}
+
+.UIThumbPagerControl_First .UIThumbPagerControl_Button_Left,.UIThumbPagerControl_Last .UIThumbPagerControl_Button_Right {
+    background-color: rgba(255, 255, 255, .4);
+    color: rgba(0, 0, 0, .7);
+}
+
+._50bm .UIShareStage_Subtitle {
+    color: #6e685c;
+}
+
+._50x5 {
+    color: #66635a;
+}
+
+._522m {
+    color: #555;
+}
+
+._51jt ._51ju a:hover {
+    background-color: #36425a;
+    color: #212121;
+}
+
+._51jt .unreadCount {
+    background-color: #6c6f75;
+    color: #1d2c4c;
+}
+
+._4mq3 .fbNubButton .label .count {
+    color: #191919
+}
+
+._4mq3 div._5qth ._5vmb:active,._4mq3 div._5qth ._5vmb:focus,._4mq3 div._5qth ._5vmb:hover,._4mq3 div._5qth .openToggler ._5vmb,._4mq3 div._5qth .openToggler ._5vmb:active,._4mq3 div._5qth .openToggler ._5vmb:focus,._4mq3 div._5qth .openToggler ._5vmb:hover {
+    background-color: #273451;
+}
+
+._4mq3 ._4mq7 {
+    background-color: #212121;
+}
+
+._5q5b .menuOpened .titlebarButtonWrapper ._510p,._5q5b .titlebarButtonWrapper ._510p:active {
+    background-color: #1e2d50;
+}
+
+.titlebarButtonWrapper ._510p .button:active,.titlebarButtonWrapper ._510p .button:focus,.titlebarButtonWrapper ._510p .button:hover,.titlebarButtonWrapper ._510p .button:active,.titlebarButtonWrapper ._510p .openToggler .button,.titlebarButtonWrapper ._510p .openToggler .button:active,.titlebarButtonWrapper ._510p .openToggler .button:focus,.titlebarButtonWrapper ._510p .openToggler .button:hover {
+    background-color: #273451;
+}
+
+._87- {
+    color: #99ca5;
+}
+
+._4g6x {
+    background-color: rgba(33, 33, 33, .95);
+}
+
+._4g6z {
+    color: #3f4b5d;
+}
+
+.fbDropReady ._4g6z {
+    color: #3a517a
+}
+
+._5ys- {
+    color: #484b51;
+}
+
+._5w1r {
+    color: #1b1f26;
+    text-shadow: rgba(33, 33, 33, .5) 0 1px 0;
+}
+
+._5yl5 ._89h {
+    color: #4c4c4c
+}
+
+._5w-6 {
+    background-color: #747576;
+    color: #484b51;
+}
+
+._52kr {
+    background-color: #747576;
+}
+
+._4ypb, ._4ypa, ._4ype {
+    background-color: #7d7d7d;
+}
+._5w0o, ._5wdb {
+    color: #484b51;
+}
+
+._5wd4 ._59gp {
+    color: #191919;
+}
+
+._3quh {
+    color: #00427f;
+}
+
+._3quh._3ay_ {
+    color: #781e12
+}
+
+._39r6 {
+    color: #0a0c11;
+}
+
+._39r7 {
+    color: rgba(255, 255, 255, .40);
+}
+
+._2sdm {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+._4sp8 {
+    background-color: #212121;
+}
+
+._2sdm ::selection {
+    background-color: rgba(0, 132, 255, .2)
 }
